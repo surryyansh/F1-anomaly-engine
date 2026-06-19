@@ -1,10 +1,4 @@
-Here is a professional, portfolio-ready `README.md` file tailored exactly to the architecture we just built. It is designed to impress recruiters by highlighting your use of microservices, machine learning, and real-time data streaming.
 
-Copy this code block and paste it directly into your `README.md` file on GitHub!
-
----
-
-```markdown
 # 🏎️ F1 Real-Time Telemetry & Anomaly Detection Engine
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
