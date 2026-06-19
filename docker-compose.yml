@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  # 1. The Database Server
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  # 2. The Python AI Engine
+  api:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      # Tell FastAPI exactly how to find the MongoDB container
+      - MONGO_URL=mongodb://mongodb:27017 
+    depends_on:
+      - mongodb
+
+  # 3. The React Dashboard
+  web:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+
+# Preserve DB data even if containers are destroyed
+volumes:
+  mongo_data:
