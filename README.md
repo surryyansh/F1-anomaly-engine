@@ -51,7 +51,7 @@ Because this project is fully containerized, you do not need to manually install
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/surryyansh/F1-anomaly-engine.git](https://github.com/surryyansh/F1-anomaly-engine.git)
+git clone https://github.com/surryyansh/F1-anomaly-engine.git
 cd F1-anomaly-engine
 
 ```
@@ -94,8 +94,5 @@ Watch the dashboard light up! 🟢
 
 ---
 
-*Architected and developed by [Suryansh Rajput](https://www.google.com/search?q=https://github.com/surryyansh).*
-
-```
 
 ```
