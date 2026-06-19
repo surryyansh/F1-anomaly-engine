@@ -1,6 +1,3 @@
-This README.md is designed to show recruiters that you understand professional engineering practices like microservices, containerization, and data-driven AI.
-
-Create a file named README.md in your root folder and paste this content:
 🏎️ F1 Real-Time Telemetry & Anomaly Detection
 
 A production-grade, event-driven architecture designed to monitor Formula 1 telemetry data in real-time. This system uses machine learning to detect mechanical failures or sensor anomalies and provides a high-fidelity, dual-theme dashboard for mission-critical monitoring.
