@@ -91,8 +91,3 @@ Watch the dashboard light up! 🟢
 * [ ] **Official F1 Live Timing Integration:** Replace the local producer with a SignalR client to intercept real race weekend data using the `fastf1` library.
 * [ ] **Webhooks:** Automated Slack/Discord push notifications for critical engine alerts.
 * [ ] **Cloud Deployment:** Migrate Docker containers to a managed cloud provider (e.g., Render, AWS, or Railway).
-
----
-
-
-```
