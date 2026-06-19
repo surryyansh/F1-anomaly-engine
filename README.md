@@ -13,7 +13,6 @@ This engine uses an **Isolation Forest Machine Learning model** to evaluate live
 
 ## 🏗️ System Architecture
 
-*(Optional: Add a screenshot of your dashboard or a flowchart diagram here! To add an image, just drag and drop it into the GitHub editor).*
 
 The system is fully containerized and decoupled into distinct microservices:
 
