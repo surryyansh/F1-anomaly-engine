@@ -1,5 +1,5 @@
 
-# 🏎️ F1 Real-Time Telemetry & Anomaly Detection Engine
+# F1 Real-Time Telemetry & Anomaly Detection Engine
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
@@ -86,7 +86,7 @@ python backend/producer.py
 
 Watch the dashboard light up!
 
-## E Future Roadmap
+## E. Future Roadmap
 
 * [ ] **Official F1 Live Timing Integration:** Replace the local producer with a SignalR client to intercept real race weekend data using the `fastf1` library.
 * [ ] **Webhooks:** Automated Slack/Discord push notifications for critical engine alerts.
