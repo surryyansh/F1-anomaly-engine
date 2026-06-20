@@ -11,7 +11,7 @@ A production-grade, event-driven microservice architecture designed to ingest, a
 
 This engine uses an **Isolation Forest Machine Learning model** to evaluate live telemetry packets (RPM, Speed, Throttle, Brake, Gear) and instantly detect mechanical failures or impossible physical states, broadcasting alerts to a high-performance React dashboard.
 
-## 🏗️ System Architecture
+## A. System Architecture
 
 
 The system is fully containerized and decoupled into distinct microservices:
@@ -21,7 +21,7 @@ The system is fully containerized and decoupled into distinct microservices:
 3. **The Database (MongoDB):** Persistently logs all critical system failures and anomalies to ensure data survival across browser sessions.
 4. **The Pit Wall Dashboard (Next.js):** A modern, theme-aware command center featuring real-time charting and a persistent critical anomaly log.
 
-## ✨ Key Features
+## B. Key Features
 
 * **Real-Time ML Processing:** Evaluates data and flags anomalies in milliseconds using Scikit-Learn.
 * **Live WebSocket Streaming:** Zero-lag data pipeline pushing updates to the frontend without HTTP polling.
@@ -29,7 +29,7 @@ The system is fully containerized and decoupled into distinct microservices:
 * **Dockerized Infrastructure:** Environment-agnostic deployment utilizing `docker-compose` for isolated, reliable builds.
 * **Modern UI/UX:** Cyberpunk-inspired engineering dashboard with Recharts visualizations and a responsive Light/Dark mode toggle.
 
-## 🛠️ Tech Stack
+## C. Tech Stack
 
 * **Frontend:** Next.js (App Router), React, Tailwind CSS, Recharts
 * **Backend:** FastAPI, Python, WebSockets, Motor (Async MongoDB Driver)
@@ -38,7 +38,7 @@ The system is fully containerized and decoupled into distinct microservices:
 
 ---
 
-## 🚀 How to Run Locally
+## D. How to Run Locally
 
 Because this project is fully containerized, you do not need to manually install Node.js, MongoDB, or complex Python dependencies on your machine. Docker handles the entire environment.
 
@@ -84,9 +84,9 @@ python backend/producer.py
 
 *(If you are on Windows and `python` opens the Windows Store, use `py backend/producer.py` instead).*
 
-Watch the dashboard light up! 🟢
+Watch the dashboard light up!
 
-## 🔮 Future Roadmap
+## E Future Roadmap
 
 * [ ] **Official F1 Live Timing Integration:** Replace the local producer with a SignalR client to intercept real race weekend data using the `fastf1` library.
 * [ ] **Webhooks:** Automated Slack/Discord push notifications for critical engine alerts.
